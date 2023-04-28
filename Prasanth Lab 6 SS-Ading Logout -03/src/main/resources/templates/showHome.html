@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1 th:text="'Great Learning Compnay Home Page'"></h1>
+	<hr>
+	<h2 th:text="'Welcome to Great Learning Home Page'"></h2>
+	<div>
+		<form th:action="@{logout}" method="post">
+		<Button>Logout</Button>
+		</form>
+	</div>
+</body>
+</html>
